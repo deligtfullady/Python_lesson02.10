@@ -14,5 +14,12 @@ for x in range(s):
         if x + y == s and x * y == p:
             a += 1
             print(x, y)
+# или
+'''for x in range(s):
+    y = s - x
+    if x + y == s and x * y == p:
+        a += 1
+        print(x, y)
+        break'''
 if a == 0:
     print('Вы ввели не корректные данные!')
