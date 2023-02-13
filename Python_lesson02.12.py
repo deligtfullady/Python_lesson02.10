@@ -8,10 +8,8 @@
 5 6 -> 2 3 '''
 s = int(input('Введите сумму числе: '))
 p = int(input('Введите произведение: '))
-# x = 2
 a = 0
 for x in range(s):
-    # print(i)
     for y in range(s):
         if x + y == s and x * y == p:
             a += 1
